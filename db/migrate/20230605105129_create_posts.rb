@@ -4,8 +4,6 @@ class CreatePosts < ActiveRecord::Migration[7.0]
       t.references :author, null: false, foreign_key: true
       t.string :title
       t.text :text
-      t.datetime :createdAt
-      t.datetime :updatedAt
       t.integer :comments_counter
       t.integer :likes_counter
 
