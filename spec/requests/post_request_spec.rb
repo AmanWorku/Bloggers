@@ -17,4 +17,20 @@ require 'rails_helper'
        expect(response.body).to include('<h1>Here is a list of posts</h1>')
      end
    end
+   context 'GET /show' do
+    it 'renders a successful response' do
+      get user_post_url(1, 3)
+      expect(response).to be_successful
+    end
+
+    it 'renders the correct template' do
+      get user_post_url(1, 3)
+      expect(response).to render_template('show')
+    end
+
+    it 'includes correct placeholder text' do
+      get user_post_url(1, 3)
+      expect(response.body).to include('<h1>Here is a list of posts for a given user</h1>')
+    end
+  end
  end
