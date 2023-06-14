@@ -110,3 +110,42 @@ hr {
   flex-direction: column;
   gap: 10px;
 }
+
+
+.comment-like-button {
+    display: flex;
+    gap: 10px;
+  }
+ 
+  .comment-like-button a {
+    color: white;
+  }
+ 
+  .single-button {
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+ 
+  .single-button:hover {
+    background-color: #3b3b7a;
+    transition: 0.2s ease;
+  }
+ 
+  .comment-box {
+    width: 200px;
+    padding: 5px 5px;
+    border: 1px solid white;
+  }
+ 
+  .comment-box::placeholder {
+    color: white;
+  }
+ 
+  .comment-button {
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
