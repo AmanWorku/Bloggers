@@ -25,3 +25,13 @@ first_user = User.create(name: 'Aman', photo: 'https://avatars.githubusercontent
  tenth_comment = Comment.create(author_id: first_user.id, post_id: eight_post.id, text: 'i did not get the idea.' )
  eleventh_comment = Comment.create(author_id: second_user.id, post_id: eight_post.id, text: 'Can someone else clarify it to me.' )
  twelveth_comment = Comment.create(author_id: third_user.id, post_id: nineth_post.id, text: 'This is awesome.' )
+
+
+
+ first_like = Like.create(author_id: third_user.id, post_id: third_post.id)
+ second_like = Like.create(author_id: second_user.id, post_id: first_post.id)
+ third_like = Like.create(author_id: first_user.id, post_id: third_post.id)
+ fourth_like = Like.create(author_id: first_user.id, post_id: second_post.id)
+ fifth_like = Like.create(author_id: third_user.id, post_id: first_post.id)
+ sixth_like = Like.create(author_id: second_user.id, post_id: third_post.id) 
+ 
