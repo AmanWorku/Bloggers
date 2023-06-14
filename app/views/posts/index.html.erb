@@ -14,7 +14,7 @@
      <div class="recent-posts">
          <% @posts.each do |post| %>
          <div class="one-comment">
-             <a href="./<%=post.id%>">
+             <%= link_to user_post_path(@user, post.id) do%>
                  <h2><%= post.title %>
                  </h2>
                  <p id="post-text">
@@ -31,7 +31,7 @@
                          </div>
                      <% end %>
              </div>
-             </a>
+             <% end %>
              </div>
          <% end %>
      </div>
