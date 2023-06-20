@@ -6,7 +6,8 @@ RSpec.describe 'Post index page', type: :feature do
   let!(:posts) { Post.all }
 
   first_user = User.create(name: 'Daniel Matama', photo: 'https://avatars.githubusercontent.com/u/110289566?v=4',
-                           bio: 'I am a full-stack software developer. Proficient in HTML, CSS, JavaScript, and Bootstrap. Remote worker and available for hire. Studying Ruby at Microverse.')
+                           bio: 'I am a full-stack software developer. Proficient in HTML, CSS, JavaScript,
+                            and Bootstrap. Remote worker and available for hire. Studying Ruby at Microverse.')
 
   first_post = Post.create(author_id: first_user.id, title: 'Hello', text: 'ONE This is my first post')
   second_post = Post.create(author_id: first_user.id, title: 'Hi there', text: 'ONE This is my second post')
