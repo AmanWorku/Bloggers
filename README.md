@@ -112,6 +112,11 @@ To deploy the app you can use
 - Twitter: [@Aman_on_Twitter](https://twitter.com/Amexworku)
 - LinkedIn: [@Aman_on_LinkedIn](https://www.linkedin.com/in/aman-worku-tsegaw/)
 
+### 👤 **Aman Worku**:
+- GitHub: [@Aman_on_GitHub](https://github.com/danielmatama)
+- Twitter: [@Aman_on_Twitter](https://twitter.com/danmatama)
+- LinkedIn: [@Aman_on_LinkedIn](https://www.linkedin.com/in/danielmatama-mwebesa/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
