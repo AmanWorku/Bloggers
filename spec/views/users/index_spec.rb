@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'User index page', type: :feature do
-  let!(:user) { User.create(name: 'Tati', bio: 'Coding', photo: 'https://avatars.githubusercontent.com/u/80094659?v=4') }
+  let!(:user) { User.create(name: 'Dan Matama', bio: 'Coding', photo: 'https://avatars.githubusercontent.com/u/110289566?v=4') }
   let!(:post) { Post.create(title: 'Post one', text: 'Content for post one', author: user) }
 
   before do
