@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@100;500&display=swap');
 
-* {
+body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -156,21 +156,16 @@ hr {
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 3%;
-}
-
-.devise-container label {
-  color: white;
-  align-items: center;
-  justify-content: center;
+  padding: 2%;
+  background-color: #3b3b8f;
+  max-width: 40%;
+  margin-inline: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.3);
 }
 
 .devise-container a {
   color: white;
-}
-
-.remember-me-label {
-  margin-left: 100px;
 }
 
 .devise-container input::placeholder {
@@ -182,11 +177,27 @@ hr {
 }
 
 .devise-container input {
-  width: 24em;
+  width: 100%;
   display: flex;
   border: 1px solid white;
   border-radius: 5px;
   padding: 5px;
+}
+
+#user_remember_me {
+  width: auto;
+  margin-right: 10px;
+}
+
+.remember-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.remember-me-field {
+  flex: 1;
 }
 
 .actions input {
@@ -199,6 +210,11 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.actions input:hover {
+  background: rgb(23, 125, 159);
+  transition: 0.2s ease-in-out;
 }
 
 .login-container input:not([type="checkbox"]):not([type="submit"]) {
