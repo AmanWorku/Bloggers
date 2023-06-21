@@ -148,3 +148,26 @@ hr {
   border: 1px solid white;
   border-radius: 5px;
 }
+
+.devise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 3%;
+}
+
+.devise-container label {
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.devise-container a {
+  color: white;
+}
+
+.remember-me-label {
+  margin-left: 100px;
+}
