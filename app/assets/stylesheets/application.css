@@ -171,3 +171,18 @@ hr {
 .remember-me-label {
   margin-left: 100px;
 }
+
+
+.devise-container input::placeholder {
+  color: rgb(174, 174, 174);
+}
+
+.devise-container a:hover {
+  color: rgb(53, 183, 226);
+}
+
+.devise-container input {
+  width: 24em;
+  display: flex;
+  padding: 5px;
+}
